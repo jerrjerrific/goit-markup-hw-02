@@ -8,16 +8,26 @@ body {
   letter-spacing: 0.32px;
 }
 
-header > p {
+header a {
+  text-decoration: none;
+  color: #434455;
+}
+
+header p {
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
+  font-style: bold;
   font-weight: 800;
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  color: #2e2f42;
 }
 
-header > p > span {
+.header-span {
   color: #4d5ae5;
+}
+
+.header-contact a {
+  color: #434455;
 }
