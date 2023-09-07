@@ -1,0 +1,17 @@
+body {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+header > p {
+  font-family: Raleway;
+}
+
+header > p > span {
+  color: #4d5ae5;
+}
