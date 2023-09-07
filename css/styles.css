@@ -8,9 +8,9 @@ body {
   letter-spacing: 0.32px;
 }
 
-li {
+ul {
   list-style: none;
-  padding-left: 0px;
+  padding: 0px;
   margin: 0px;
 }
 
@@ -38,9 +38,62 @@ header p {
   color: #434455;
 }
 
+.splash-header {
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: white;
+  background: var(--NAVY-BLUE, #2e2f42);
+  line-height: 75px;
+}
+
+.wawd-images h2 {
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
 .wawd-images img {
   width: 360px;
   height: 300px;
+}
+
+.our-team h2 {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+
+  /* Header 2 */
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+footer {
+  background: var(--NAVY-BLUE, #2e2f42);
+  color: var(--CLOUD, #f4f4fd);
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--CLOUD, #f4f4fd);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: bold;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.footer-span {
+  color: #4d5ae5;
 }
 
 .portfolio-images img {
