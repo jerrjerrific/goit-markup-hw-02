@@ -31,3 +31,14 @@ header p {
 .header-contact a {
   color: #434455;
 }
+
+.wawd-images img {
+  width: 360px;
+  height: 300px;
+}
+
+.portfolio-images img {
+  width: 360px;
+  height: 300px;
+  flex-shrink: 0;
+}
